@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "cursor/bush-tucka-tracker-repository-670f",
+    "feature/onboarding-flow",
+    "ios_buildsetup",
+    "main"
+  ],
+  "parent": {
+    "cursor/bush-tucka-tracker-repository-670f": "main",
+    "feature/onboarding-flow": "main",
+    "ios_buildsetup": "main",
+    "main": null
+  },
+  "order": [
+    "main",
+    "cursor/bush-tucka-tracker-repository-670f",
+    "feature/onboarding-flow",
+    "ios_buildsetup"
+  ]
+}
