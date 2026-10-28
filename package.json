@@ -3,9 +3,9 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "node api.js && bunx rork start -p mvdyra21f77y4oer3x0a6 --tunnel",
-    "start-web": "bunx rork start -p mvdyra21f77y4oer3x0a6 --web --tunnel",
-    "start-web-dev": "DEBUG=expo* bunx rork start -p mvdyra21f77y4oer3x0a6 --web --tunnel",
+    "start": "node init && bunx rork start -p mvdyra21f77y4oer3x0a6 --tunnel",
+    "start-web": "node init && bunx rork start -p mvdyra21f77y4oer3x0a6 --web --tunnel",
+    "start-web-dev": "node init && DEBUG=expo* bunx rork start -p mvdyra21f77y4oer3x0a6 --web --tunnel",
     "lint": "expo lint"
   },
   "dependencies": {
